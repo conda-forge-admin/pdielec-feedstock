@@ -1,5 +1,5 @@
 {% set name = "pdielec" %}
-{% set version = "9.1.1" %}
+{% set version = "10.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
 
-  sha256: 6587ea69bb271e4d869eeccf0e3344cedbdd824dc7c413eeabd5a9de7ec4801b
+  sha256: e7645f3338a7254bf1644fc9dcf5b6f5777064268d11657d8c6e3923cadc357b
 
 
 build:
